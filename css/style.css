@@ -1,0 +1,9 @@
+
+.container{
+    display: flex;
+}
+.header{
+    display: flex;
+    background: #1F2937;
+
+}
