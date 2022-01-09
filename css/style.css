@@ -59,18 +59,17 @@ a{
     color: #E5E7EB;
 }
 
-button{
+
+
+button.sign-up{
+    background: #3882F6;
+    color: #E5E7EB;
+    margin-top: 10px;    
     padding: 8px 14px;
     border-radius: 8px;
     font-weight: bolder;
     width: 150px;
     font-size: 18px;
-}
-
-button.sign-up{
-    background: #3882F6;
-    color: #E5E7EB;
-    margin-top: 10px;
 }
 
 
@@ -84,6 +83,7 @@ img{
     flex-direction: column;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 150px;
 }
 
 .bottom{
@@ -102,4 +102,97 @@ img{
 .info{
     display: flex;
     flex-direction:column;
+    gap: 10px;
+    width: 150px;
+}
+
+.images{
+    border-color: #3882F6;
+    border-radius: 8px;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+    border-width: 5px;
+}
+
+.text{
+    color: grey;
+    text-align: center;
+    size: 18px;
+}
+
+.third-section{
+    background-color: #E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F2937;
+    padding: 150px;
+    display:flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 800px;
+    align-self: center;
+}
+
+.person{
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: right;
+    width: 800px;
+    align-self: center;
+}
+
+.fourth-section{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue{
+    width: 1000px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    display:flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+button.button-2{
+    background-color: #3882F6 ;
+    color: #F9FAF8;
+    border-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 8px 30px;
+    border-style: solid;
+    font-size: 18px;
+    height: 50px;
+    font-weight: bolder;
+    border-width: 4px;
+}
+
+.first-line{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.second-line{
+    font-size: 18px;
+}
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #1F2937;
+    color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
 }
